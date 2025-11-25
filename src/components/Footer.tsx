@@ -125,11 +125,11 @@ export const Footer: React.FC = () => {
           </div>
           <div>
             <h5 className="text-white font-bold mb-6 text-sm uppercase tracking-wider">联系我们</h5>
-            <p className="text-sm">contact@geomind.ai</p>
+            <p className="text-sm">微信号：sunce888</p>
           </div>
         </div>
         <div className="container mx-auto px-6 mt-16 pt-8 border-t border-white/5 text-xs text-center flex flex-col md:flex-row items-center justify-between">
-          <p>&copy; 2024 GEO Mind Agency.</p>
+          <p>&copy; 2025 GEO Mind Agency.</p>
            <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition">Privacy</a>
             <a href="/sitemap.xml" className="text-primary-500 hover:text-primary-400">sitemap.xml</a>

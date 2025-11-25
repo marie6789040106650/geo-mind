@@ -34,7 +34,10 @@ export const About: React.FC = () => {
                                 src="/sunce.jpg" 
                                 alt="孙策" 
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover/avatar:scale-110"
-                                onError={() => setImageError(true)}
+                                onError={(e) => {
+                                  console.error("Failed to load sunce.jpg:", e);
+                                  setImageError(true);
+                                }}
                             />
                           ) : (
                             <div className="w-full h-full flex items-center justify-center bg-dark-800 text-3xl font-bold text-gray-500">孙</div>
@@ -135,7 +138,7 @@ export const About: React.FC = () => {
           ></div>
           
           {/* Modal Content */}
-          <div className="relative bg-white rounded-2xl p-8 max-w-sm w-full shadow-2xl transform transition-all scale-100 animate-blob">
+          <div className="relative bg-white rounded-2xl p-8 max-w-sm w-full shadow-2xl transform transition-all scale-100">
             <button 
               onClick={() => setShowQR(false)}
               className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors"
@@ -151,15 +154,14 @@ export const About: React.FC = () => {
                   <img 
                     src="/wechat-qr.jpg" 
                     alt="孙策 WeChat QR Code" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                   <div className="absolute top-0 left-0 w-full h-1 bg-green-500/50 animate-[scan_2s_linear_infinite]"></div>
               </div>
 
               <div className="inline-flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-full text-xs font-mono text-gray-600">
                 <ScanLine className="w-3 h-3" />
-                <span>WeChat: sunce_geo</span>
-              </div>
+                                            <span>WeChat ID: sunce888</span>              </div>
             </div>
           </div>
         </div>
