@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# GEO Optimization: Explicitly allow AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://geomind.ai/sitemap.xml
