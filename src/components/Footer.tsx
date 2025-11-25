@@ -63,7 +63,7 @@ export const Footer: React.FC = () => {
                           <img 
                               src="/wechat-qr.jpg" 
                               alt="孙策 WeChat QR Code" 
-                              className="w-48 h-48 md:w-52 md:h-52 object-cover rounded-lg border-2 border-gray-100"
+                              className="w-48 h-48 md:w-52 md:h-52 object-contain rounded-lg border-2 border-gray-100"
                               onError={() => setImageError(true)}
                           />
                         ) : (
@@ -84,7 +84,7 @@ export const Footer: React.FC = () => {
                         <p className="text-gray-500 text-sm mt-2">获取 1v1 GEO 诊断与咨询</p>
                         <div className="mt-4 flex items-center gap-2 justify-center text-xs font-mono text-gray-400 bg-gray-50 px-3 py-1 rounded-full">
                             <ScanLine className="w-3 h-3" />
-                            <span>WeChat ID: sunce_geo</span>
+                            <span>WeChat ID: sunce888</span>
                         </div>
                     </div>
                 </div>
