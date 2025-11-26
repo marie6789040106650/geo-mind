@@ -84,7 +84,7 @@ export const Footer: React.FC = () => {
                         <p className="text-gray-500 text-sm mt-2">获取 1v1 GEO 诊断与咨询</p>
                         <div className="mt-4 flex items-center gap-2 justify-center text-xs font-mono text-gray-400 bg-gray-50 px-3 py-1 rounded-full">
                             <ScanLine className="w-3 h-3" />
-                            <span>WeChat ID: sunce888</span>
+                            <span>WeChat ID: sunce088</span>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ export const Footer: React.FC = () => {
           </div>
           <div>
             <h5 className="text-white font-bold mb-6 text-sm uppercase tracking-wider">联系我们</h5>
-            <p className="text-sm">微信号：sunce888</p>
+            <p className="text-sm">微信号：sunce088</p>
           </div>
         </div>
         <div className="container mx-auto px-6 mt-16 pt-8 border-t border-white/5 text-xs text-center flex flex-col md:flex-row items-center justify-between">

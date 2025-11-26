@@ -79,7 +79,7 @@ public/
 
 如果您对 GEO 落地案例感兴趣，或者需要品牌诊断：
 
-*   **WeChat ID**: `sunce888`
+*   **WeChat ID**: `sunce088`
 *   **Sitemap**: [查看站点地图](/sitemap.xml)
 
 ---
